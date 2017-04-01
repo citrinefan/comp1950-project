@@ -11,4 +11,4 @@ AddType text/html .shtml .html
 AddHandler server-parsed .shtml .html
 Options Indexes FollowSymLinks Includes 
 
-ErrorDocument 404 /errors/page-not-found.html
+ErrorDocument 404 /comp1950-project/errors/page-not-found.html
