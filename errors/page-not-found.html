@@ -3,9 +3,26 @@
 	<head>
 		<title>COMP1950 Web Site Redesign Proposal - Page Not Found</title>
 		<meta charset="UTF-8">
+
+		<!-- css reset -->
+		<link rel="stylesheet" href="/comp1950-project/css/eric-meyer-reset.css">
+
+		<link rel="stylesheet" href="/comp1950-project/css/mystyle.css">
 	</head>
 	
 	<body>
+		<div id="container">
+			<!--#include virtual="/comp1950-project/layouts/header.html" -->
+
+			<div class="error_message">
+				<h2>404 - Not Found</h2>
+				<p>The page you are trying to enter does not exist.</p>
+			</div>
+		
+			<div id="push"></div>
+		</div>
+
+		<!--#include virtual="/comp1950-project/layouts/footer.html" -->
 	
 	</body>
 </html>

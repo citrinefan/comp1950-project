@@ -1,0 +1,29 @@
+<!-- header -->
+<header>
+	<h1>Comp1950 Website Redesign Proposal</h1>
+</header>
+
+<!-- navigation -->
+<nav>
+	<ul>
+		<!--#if expr="v('DOCUMENT_NAME') == 'index.html'" -->
+			<li class="on-this-page">Introduction</li>
+		<!--#else -->
+			<li><a href="/comp1950-project/index.html">Introduction</a></li>
+		<!--#endif -->
+
+		<li><a href="/comp1950-project/proto-site/page1.html">Proto-site</a></li>
+
+		<!--#if expr="v('DOCUMENT_NAME') == 'sitemap.html'" -->
+			<li class="on-this-page">Sitemap</li>
+		<!--#else -->
+			<li><a href="/comp1950-project/sitemap.html">Sitemap</a></li>
+		<!--#endif -->
+
+		<!--#if expr="v('DOCUMENT_NAME') == 'rationale.html'" -->
+			<li class="on-this-page">Rationale</li>
+		<!--#else -->
+			<li><a href="/comp1950-project/rationale.html">Rationale</a></li>
+		<!--#endif -->
+	</ul>
+</nav>
