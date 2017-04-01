@@ -57,8 +57,17 @@ nav li:hover{
 	color: #2364ce;
 }
 
+#sitemap{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#sitemap > img{
+	width: 80%;
+}
+
 #push{
-	height: 40px;
+	height: 55px;
 }
 
 footer{
